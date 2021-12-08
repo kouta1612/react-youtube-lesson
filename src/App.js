@@ -1,4 +1,5 @@
 import React from "react";
+import AddMovie from "./AddMovie";
 import './App.css'
 import { MovieProvider } from "./MovieContext";
 import MovieList from "./MovieList";
@@ -9,6 +10,7 @@ function App() {
     <MovieProvider>
       <div className="app">
         <Nav />
+        <AddMovie />
         <MovieList />
       </div>
     </MovieProvider>
